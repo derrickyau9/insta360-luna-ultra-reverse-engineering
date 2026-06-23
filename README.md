@@ -5,6 +5,10 @@ Reverse-engineering notes, device configuration, persistent root SSH, and persis
 Tested on firmware 1.0.47.
 <img width="1702" height="1276" alt="demo" src="https://github.com/user-attachments/assets/a308b71c-76bf-41bd-99d6-3e63c8c1b3d6" />
 
+## And yes, it runs DOOM!
+<img width="1684" height="1263" alt="20260623151211" src="https://github.com/user-attachments/assets/2f049ef9-2816-4dbe-9852-fc05ffa76efa" />
+
+
 ## Quick access
 
 Connect the computer to the camera Wi-Fi first. The tested camera address is `192.168.42.1`.
