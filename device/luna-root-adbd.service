@@ -1,0 +1,20 @@
+[Unit]
+Description=Luna Ultra persistent root ADB daemon
+After=usb.service leprop.service ins_bbd.service
+Wants=usb.service
+Conflicts=adbd.service
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/setprop ro.adb.secure 0
+ExecStartPre=/usr/bin/setprop ro.debuggable 1
+ExecStartPre=/usr/bin/setprop service.adb.root 1
+ExecStartPre=/usr/bin/setprop service.adb.tcp.port 5555
+ExecStartPre=/usr/bin/setprop persist.adb.tcp.port 5555
+ExecStart=/sbin/adbd
+Restart=always
+RestartSec=2
+Nice=-5
+
+[Install]
+WantedBy=multi-user.target

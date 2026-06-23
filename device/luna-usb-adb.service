@@ -1,0 +1,13 @@
+[Unit]
+Description=Keep ADB enabled in the Luna Ultra USB gadget
+After=usb.service luna-root-adbd.service
+Requires=luna-root-adbd.service
+
+[Service]
+Type=simple
+ExecStart=/data/luna-adb/enable-usb-adb.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Luna Ultra persistent key-only root SSH
+After=network.target ins_netd.service
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/data/luna-ssh/alpine/lib/ld-musl-aarch64.so.1 --library-path /data/luna-ssh/alpine/lib:/data/luna-ssh/alpine/usr/lib /data/luna-ssh/alpine/usr/sbin/dropbear -F -E -s -g -p 0.0.0.0:22 -r /data/luna-ssh/dropbear_ed25519_host_key
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
