@@ -3,6 +3,7 @@
 Reverse-engineering notes, device configuration, persistent root SSH, and persistent root ADB services for the Insta360 Luna Ultra (`z03`) developer environment.
 
 Tested on firmware `1.0.47` with the Qualcomm QCS8625 Linux platform.
+<img width="1702" height="1276" alt="demo" src="https://github.com/user-attachments/assets/a308b71c-76bf-41bd-99d6-3e63c8c1b3d6" />
 
 ## Quick access
 
