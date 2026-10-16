@@ -156,3 +156,12 @@ Root ADB service:   enabled, active
 USB ADB watcher:    enabled, active
 Root SSH service:   enabled, active
 ```
+## Star History
+
+<a href="https://www.star-history.com/?repos=derrickyau9%2Finsta360-luna-ultra-reverse-engineering">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=derrickyau9/insta360-luna-ultra-reverse-engineering&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=derrickyau9/insta360-luna-ultra-reverse-engineering&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=derrickyau9/insta360-luna-ultra-reverse-engineering&type=date&legend=top-left" />
+ </picture>
+</a>
